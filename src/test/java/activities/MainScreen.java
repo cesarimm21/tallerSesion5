@@ -21,5 +21,4 @@ public class MainScreen {
     public static Target resultLabel = Target
             .the("result label")
             .located(By.id("com.android.calculator2:id/result"));
-
 }

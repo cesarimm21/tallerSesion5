@@ -1,4 +1,5 @@
 Feature: Calculator
+  @Calculator
   Scenario: Add two number
 
     Given eynar is an user in the calculator

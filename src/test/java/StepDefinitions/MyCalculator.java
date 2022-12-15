@@ -1,4 +1,4 @@
-package step;
+package StepDefinitions;
 
 import activities.MainScreen;
 import io.cucumber.java.Before;
@@ -13,11 +13,9 @@ import net.serenitybdd.screenplay.actors.OnlineCast;
 import net.serenitybdd.screenplay.questions.Text;
 
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
-import static net.serenitybdd.screenplay.actors.OnStage.theActorCalled;
-import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 import static org.hamcrest.Matchers.equalTo;
 
-public class StepCalculator {
+public class MyCalculator {
     @Given("{actor} is an user in the calculator")
     public void eynarIsAnUserInTheCalculator(Actor actor) {
     }
@@ -46,6 +44,5 @@ public class StepCalculator {
     public void setTheStage(){
         OnStage.setTheStage(new OnlineCast());
     }
-
 
 }

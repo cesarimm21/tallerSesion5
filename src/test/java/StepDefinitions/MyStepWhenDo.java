@@ -1,4 +1,4 @@
-package step;
+package StepDefinitions;
 
 import activities.CreateTaskScreen;
 import activities.ListScreen;
